@@ -9,8 +9,16 @@ public static class Menu
         DrawScreen();
         WriteOptions();
 
-        var option = short.Parse(Console.ReadLine());
+        string input = Console.ReadLine();
+        if(string.IsNullOrWhiteSpace(input) || !short.TryParse(input, out short option))
+        {
+            Console.WriteLine("Opção inválida, por favor insira um número válido.");
+            Show();
+        }
+        else
+        {
         HandleMenuOption(option);
+        }
     }
 
     public static void DrawScreen()
