@@ -26,3 +26,4 @@ C:\Users\Elioenai\Documents\PROJETOS\curso-balta-io\fundamentos-csharp\EditorHTM
 C:\Users\Elioenai\Documents\PROJETOS\curso-balta-io\fundamentos-csharp\EditorHTML\obj\Debug\net8.0\EditorHTML.pdb
 C:\Users\Elioenai\Documents\PROJETOS\curso-balta-io\fundamentos-csharp\EditorHTML\obj\Debug\net8.0\EditorHTML.genruntimeconfig.cache
 C:\Users\Elioenai\Documents\PROJETOS\curso-balta-io\fundamentos-csharp\EditorHTML\obj\Debug\net8.0\ref\EditorHTML.dll
+C:\Users\Elioenai\Documents\PROJETOS\curso-balta-io\fundamentos-csharp\EditorHTML\obj\Debug\net8.0\EditorHTML.sourcelink.json

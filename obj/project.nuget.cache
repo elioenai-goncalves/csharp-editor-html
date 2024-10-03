@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zXr3ta2OxDI=",
+  "dgSpecHash": "gWlnaFOsa9Q=",
   "success": true,
   "projectFilePath": "C:\\Users\\Elioenai\\Documents\\PROJETOS\\curso-balta-io\\fundamentos-csharp\\EditorHTML\\EditorHTML.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Elioenai\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\Elioenai\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\Elioenai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\Elioenai\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.32\\microsoft.netcore.app.host.win-x64.6.0.32.nupkg.sha512"
+  ],
   "logs": []
 }
