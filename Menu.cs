@@ -10,14 +10,14 @@ public static class Menu
         WriteOptions();
 
         string input = Console.ReadLine();
-        if(string.IsNullOrWhiteSpace(input) || !short.TryParse(input, out short option))
+        if(!string.IsNullOrWhiteSpace(input) && !short.TryParse(input, out short option))
         {
-            Console.WriteLine("Opção inválida, por favor insira um número válido.");
-            Show();
+            HandleMenuOption(option);
         }
         else
         {
-        HandleMenuOption(option);
+            Console.WriteLine("Opção inválida, por favor insira um número válido.");
+            Show();
         }
     }
 
