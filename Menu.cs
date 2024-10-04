@@ -10,7 +10,7 @@ public static class Menu
         WriteOptions();
 
         string input = Console.ReadLine();
-        if(!string.IsNullOrWhiteSpace(input) && !short.TryParse(input, out short option))
+        if(short.TryParse(input, out short option))
         {
             HandleMenuOption(option);
         }
@@ -75,7 +75,7 @@ public static class Menu
                     Environment.Exit(0);
                     break;
                 }
-            default: Show(); break;
+            default: Console.WriteLine("Opção inválida, por favor insira um número válido."); Show(); break;
         }
     }
 }
